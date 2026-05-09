@@ -11,7 +11,7 @@
 .skill-progress {
     background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
     height: 100%;
-    width: 0; /* Bắt đầu từ 0 để tạo hiệu ứng */
+    width: 0; /* Start at 0 for animation */
     transition: width 1s ease-out;
     border-radius: 10px;
 }
